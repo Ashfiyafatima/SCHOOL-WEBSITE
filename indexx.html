@@ -3,257 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Best School in Lucknow | Bright Future School</title>
-  <meta name="description" content="Best CBSE School in Lucknow. Admissions Open 2026-27 for Nursery to Class 10. Modern facilities, experienced faculty.">
-  
-  <!-- SEO & Social Media -->
-  <meta property="og:title" content="Bright Future School - Best School in Lucknow">
-  <meta property="og:description" content="Admissions Open 2026-27. Enroll your child today!">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1588072432836-e10032774350">
-  
+  <title>Bright Future School</title>
+
   <style>
-    /* Your existing styles + improvements */
-    * {
+    body {
       margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial;
     }
 
-    /* Smooth scrolling */
-    html { scroll-behavior: smooth; }
-
-    /* Improved hero overlay */
-    .hero {
-      background: linear-gradient(rgba(0,74,173,0.8), rgba(0,74,173,0.8)), 
-                  url('https://images.unsplash.com/photo-1588072432836-e10032774350') no-repeat center/cover;
+    header {
+      background: #004aad;
       color: white;
-      padding: 100px 20px;
       text-align: center;
-      position: relative;
+      padding: 20px;
     }
 
-    /* Animated buttons */
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 30px;
-      background: linear-gradient(45deg, #ff6b35, #f7931e);
+    nav {
+      background: #033b87;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
       color: white;
+      margin: 10px;
       text-decoration: none;
-      border-radius: 50px;
-      font-weight: bold;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(255,107,53,0.4);
     }
 
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 20px rgba(255,107,53,0.6);
-    }
-
-    /* Improved form */
-    .form-group {
-      margin-bottom: 20px;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 15px;
-      border: 2px solid #e1e5e9;
-      border-radius: 8px;
-      font-size: 16px;
-      transition: border-color 0.3s;
-    }
-
-    input:focus, textarea:focus {
-      outline: none;
-      border-color: #004aad;
-      box-shadow: 0 0 0 3px rgba(0,74,173,0.1);
-    }
-
-    /* Loading animation */
-    .loading {
-      display: none;
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588072432836-e10032774350') center/cover;
+      color: white;
+      padding: 100px;
       text-align: center;
-      margin: 20px 0;
     }
 
-    .spinner {
-      border: 3px solid #f3f3f3;
-      border-top: 3px solid #004aad;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      animation: spin 1s linear infinite;
-      margin: 0 auto;
+    section {
+      padding: 40px;
     }
 
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-
-    /* Improved cards */
-    .card {
-      padding: 30px;
-      background: white;
-      border-radius: 15px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-10px);
-    }
-
-    /* Floating WhatsApp with pulse */
     .whatsapp {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      background: #25D366;
+      background: green;
       color: white;
-      width: 60px;
-      height: 60px;
+      padding: 15px;
       border-radius: 50%;
-      font-size: 24px;
       text-decoration: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
-      animation: pulse 2s infinite;
-      z-index: 1000;
-    }
-
-    @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.7); }
-      70% { box-shadow: 0 0 0 20px rgba(37,211,102,0); }
-      100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
-    }
-
-    /* Mobile improvements */
-    @media (max-width: 768px) {
-      .hero h1 { font-size: 2.5rem; }
-      nav a { display: block; margin: 10px 0; }
     }
   </style>
 </head>
 
 <body>
-  <!-- Your existing HTML structure with these enhancements -->
 
-  <!-- Enhanced Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>📞 Get in Touch</h2>
-      <p style="text-align: center; color: #666; margin-bottom: 40px;">
-        Fill the form below or WhatsApp us directly!
-      </p>
+<header>
+  <h1>Bright Future School</h1>
+  <p>Shaping Young Minds</p>
+</header>
 
-      <form id="contactForm">
-        <div class="form-group">
-          <input type="text" id="name" placeholder="Your Name *" required>
-        </div>
-        <div class="form-group">
-          <input type="tel" id="phone" placeholder="Phone Number *" required>
-        </div>
-        <div class="form-group">
-          <input type="email" id="email" placeholder="Email (Optional)">
-        </div>
-        <div class="form-group">
-          <select id="class" style="width:100%; padding:15px; border:2px solid #e1e5e9; border-radius:8px;">
-            <option value="">Select Class Interested In</option>
-            <option value="nursery">Nursery</option>
-            <option value="lkg">LKG</option>
-            <option value="ukg">UKG</option>
-            <option value="1-5">Class 1-5</option>
-            <option value="6-8">Class 6-8</option>
-            <option value="9-10">Class 9-10</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <textarea id="message" rows="5" placeholder="Your Message (Optional)"></textarea>
-        </div>
-        
-        <div class="loading" id="loading">
-          <div class="spinner"></div>
-          <p>Sending...</p>
-        </div>
-        
-        <button type="submit" id="submitBtn">🚀 Submit Enquiry</button>
-      </form>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-      <!-- School Address -->
-      <div style="margin-top: 50px; text-align: center;">
-        <h3>📍 Visit Us</h3>
-        <p><strong>Bright Future School</strong><br>
-        Gomti Nagar, Lucknow, UP 226010<br>
-        Phone: +91 99999 99999</p>
-        
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.123456789!2d80.987654321!3d26.87654321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDUyJzM1LjQiTiA4MMKwNTknMjQuNSJF!5e0!3m2!1sen!2sin!4v1699999999999"
-          width="100%" height="300" style="border:0; border-radius:15px;" allowfullscreen="" loading="lazy">
-        </iframe>
-      </div>
-    </div>
-  </section>
+<div class="hero" id="home">
+  <h1>Admissions Open 2026-27</h1>
+  <p>Enroll Now</p>
+</div>
 
-  <!-- Enhanced WhatsApp -->
-  <a class="whatsapp" href="https://wa.me/919999999999?text=Hi!%20I'm%20interested%20in%20Bright%20Future%20School%20admissions." target="_blank" title="Chat on WhatsApp">
-    💬
-  </a>
+<section id="about">
+  <h2>About Us</h2>
+  <p>This is a demo school website.</p>
+</section>
 
-  <script>
-    // Enhanced form submission
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      
-      const submitBtn = document.getElementById('submitBtn');
-      const loading = document.getElementById('loading');
-      
-      // Show loading
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending...';
-      loading.style.display = 'block';
-      
-      // Simulate API call (replace with real backend)
-      setTimeout(() => {
-        // Get form data
-        const formData = {
-          name: document.getElementById('name').value,
-          phone: document.getElementById('phone').value,
-          email: document.getElementById('email').value,
-          class: document.getElementById('class').value,
-          message: document.getElementById('message').value
-        };
-        
-        // Here you would send to your backend/serverless function
-        console.log('Form submitted:', formData);
-        
-        alert('🎉 Thank you! We will contact you within 24 hours.');
-        
-        // Reset form
-        this.reset();
-        submitBtn.disabled = false;
-        submitBtn.textContent = '🚀 Submit Enquiry';
-        loading.style.display = 'none';
-      }, 2000);
-    });
+<section id="contact">
+  <h2>Contact</h2>
+  <form>
+    <input type="text" placeholder="Name"><br><br>
+    <input type="text" placeholder="Phone"><br><br>
+    <button>Submit</button>
+  </form>
+</section>
 
-    // Navbar scroll effect
-    window.addEventListener('scroll', () => {
-      const nav = document.querySelector('nav');
-      if (window.scrollY > 100) {
-        nav.style.background = 'rgba(3,59,135,0.95)';
-        nav.style.backdropFilter = 'blur(10px)';
-      } else {
-        nav.style.background = '#033b87';
-        nav.style.backdropFilter = 'none';
-      }
-    });
-  </script>
+<a class="whatsapp" href="https://wa.me/919999999999">💬</a>
+
 </body>
 </html>
